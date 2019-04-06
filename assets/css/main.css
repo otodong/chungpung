@@ -1376,7 +1376,9 @@ ul.actions {
 ul.icons {
   cursor: default;
   list-style: none;
-  padding-left: 0; }
+  padding-left: 0; 
+  display: flex;
+  justify-content: center; }
   ul.icons li {
     display: inline-block;
     padding: 0 1em 0 0; }
@@ -2178,7 +2180,7 @@ button,
   #banner.style1:after {
     background-color: #6fc3df; }
   #banner.style2:after {
-    background-color: #8d82c4; }
+    background-color: rgba(141, 130, 196, 0.705); }
   #banner.style3:after {
     background-color: #ec8d81; }
   #banner.style4:after {
